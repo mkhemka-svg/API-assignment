@@ -1,6 +1,6 @@
 # Earthquake Explorer (USGS Public API)
 This is a small Python app that fetches recent earthquakes from the USGS 
-Earthquake Catalog API and displays a ranked list of earthquakes. 
+Earthquake Catalog API and displays a ranked list. 
 It can also generate a simple plot of magnitude over time. Essentially, it calls 
 the USGS Earthquake Catalog API using Python’s requests module to make an HTTP 
 GET request to a public endpoint that returns data in GeoJSON (JSON) format. 
