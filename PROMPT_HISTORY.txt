@@ -1,4 +1,4 @@
-Model/tool: ChatGPT (GPT-4)
+Model used: ChatGPT (GPT-4)
 
 Key prompts used:
 
