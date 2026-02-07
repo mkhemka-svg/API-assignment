@@ -1,0 +1,17 @@
+Model/tool: ChatGPT (GPT-4)
+
+Key prompts used:
+
+1) Explain the USGS Earthquake Catalog API GeoJSON response. What fields do I need for magnitude, time and location? Provide a small example response and explain each field.
+
+2) Write a Python script using requests that calls the USGS earthquake GeoJSON endpoint with parameters like how many hours back, minimum magnitude and limit. Make sure there are no HTTP errors, the JSON is valid and if there are no earthquakes that match the user's parameters, print a message that says "No earthquakes matched your filters".
+
+3) Add command-line arguments (argparse) for hours, min magnitude, limit, and add an option to sort results by time or by magnitude.
+
+4) Explain how to convert the USGS API way of giving time into time and date stamps like "2026-02-07 18:33 UTC". 
+
+5) Update the code to convert epoch time (milliseconds)returned by the USGS API into Python datetime objects.
+
+6) Add a matplotlib plot of magnitudes over time. Convert epoch milliseconds to datetime for this as well. Keep it as a single plot with readable axis labels.
+
+7) Correct the formatting of the matplotlib plot so no features overlap and so it looks like a clean plot.
